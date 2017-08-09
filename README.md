@@ -83,6 +83,7 @@ npm install -g create-react-app
 
 create-react-app tibetan_game
 cd tibetan_game/
+npm install --save gh-pages
 git init
 rm package.json README.md
 git add .
@@ -100,6 +101,5 @@ npm start
 
 ## Acknowledgements
 We are grateful to following persons for their ideas and collaboration:
-
 
 ### Licence: [MIT License](LICENSE)
