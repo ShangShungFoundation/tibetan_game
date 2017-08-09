@@ -37,10 +37,10 @@ Fun, developement of personal logic skills, strategy
 [JavaScript](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics), [ES6](https://babeljs.io/learn-es2015/), [React](https://facebook.github.io/react/), [Bootstrap](http://getbootstrap.com/getting-started/), [Browserify](https://codeutopia.net/blog/2016/01/25/getting-started-with-npm-and-browserify-in-a-react-project/)
 
 ## Backend:
-node.js, Google sheets (json export)
+node.js, with [websockets](https://devcenter.heroku.com/articles/node-websockets) or Webrtc messanging
 
 ## Difficulty: 
-Medium
+Medium/High
 
 ## Recommended toolset:
    - Editor: [Sublime Text 3](https://www.sublimetext.com/3) with [react support](https://medium.com/@adrianli/setting-up-sublime-text-3-for-reactjs-3bf6baceb73a), [Atom](https://atom.io/) [with react](https://medium.com/productivity-freak/my-atom-editor-setup-for-js-react-9726cd69ad20) or Vim ;)
@@ -53,7 +53,7 @@ tib. many eyes
 * http://homepages.di.fc.ul.pt/~jpn/gv/mingmang.htm
 * http://www.gosymposium.org/papers/peter_shotwell_migmang.docx
 
-Very similar to Othello / Reversi game
+Very similar to Othello or Reversi game
 * https://github.com/kana/othello-js
 * https://github.com/jbub/reversi-js
 * https://www.reddit.com/r/reviewmycode/comments/59wc58/javascript_and_p5js_othello_game/
@@ -61,6 +61,9 @@ Very similar to Othello / Reversi game
 * http://othellogame.net/
 * http://en.doc.boardgamearena.com/Tutorial_reversi
 * https://www.somewhereincanada.com/games/board_/reversi3/ https://www.somewhereincanada.com/games/board_/reversi3/js/reversi.js
+* http://www.p-six.de/othello-game-replayer.html
+* https://www.npmjs.com/package/reversi
+* https://www.youtube.com/watch?v=EngA8C4Xpno
 
 ### multiplayer game in javascript
 * https://hackernoon.com/how-to-build-a-multiplayer-browser-game-4a793818c29b
@@ -88,8 +91,14 @@ git pull origin master --allow-unrelated-histories
 npm start
 
 ```
+###  Start Project
+`npm start`
 
-### Credits: 
+###  Deploy Project
+`npm run deploy`
+
+## Acknowledgements
+We are grateful to following persons for their ideas and collaboration:
 
 
 ### Licence: [MIT License](LICENSE)
