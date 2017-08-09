@@ -9,16 +9,17 @@
 ## Project Coordinator: 
 
 ## Description
-Developement of online tibetan turn game following simple rules with simple interface.
+Online tibetan turn game following simple rules with simple interface.
 
 ## Purpose
-
+Developement of online 2 paricipants game with optional AI.
+Porting it to native mobile apps
 
 ## Who it’s for? 
 Anyone interested
 
 ## Why they would want to use it?
-
+Fun, developement of personal logic skills, strategy
 
 ## Expected Features: 
 - unicode support
@@ -28,6 +29,7 @@ Anyone interested
 - [ ] Interface done 
 - [ ] Game logic implemented
 - [ ] Players interaction, turns (backend)
+- [ ] Players chat
 - [ ] AI [Monte_Carlo_tree_search](https://en.wikipedia.org/wiki/Monte_Carlo_tree_search)
 - [ ] Mobile versions
 
@@ -50,6 +52,7 @@ tib. many eyes
 * [wikipedia](https://en.wikipedia.org/wiki/Ming_Mang_(game))
 * http://homepages.di.fc.ul.pt/~jpn/gv/mingmang.htm
 * http://www.gosymposium.org/papers/peter_shotwell_migmang.docx
+
 Very similar to Othello / Reversi game
 * https://github.com/kana/othello-js
 * https://github.com/jbub/reversi-js
