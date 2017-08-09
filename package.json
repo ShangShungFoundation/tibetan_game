@@ -2,6 +2,7 @@
   "name": "learn_tib_app",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "https://shangshungfoundation.github.io/tibetan_game",
   "dependencies": {
     "gh-pages": "^1.0.0",
     "react": "^15.6.1",
