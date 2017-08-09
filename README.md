@@ -1,81 +1,92 @@
-## [Tibetan Learning App](https://shangshungfoundation.github.io/tib_learn_app/)
+## [Tibetan Game](https://shangshungfoundation.github.io/tibetan_game/)
 [1st Merigar Hackathon project](ShangShungFoundation/1st_merigar_hackathon)
 
-**[Website](https://shangshungfoundation.github.io/tib_learn_app/)** | 
-[Github](https://github.com/ShangShungFoundation/tib_learn_app/) | 
-[Tasks](https://github.com/ShangShungFoundation/tib_learn_app/projects/1) | 
-[Issues](https://github.com/ShangShungFoundation/tib_learn_app/issues)
+**[Website](https://shangshungfoundation.github.io/tibetan_game/)** | 
+[Github](https://github.com/ShangShungFoundation/tibetan_game/) | 
+[Tasks](https://github.com/ShangShungFoundation/tibetan_game/projects/1) | 
+[Issues](https://github.com/ShangShungFoundation/tibetan_game/issues)
 
-### Project Coordinator: 
+## Project Coordinator: 
 
-### Description
-An online tool to learn tibetan, mostly classical. 
-Divided into two main parts:
+## Description
+Developement of online tibetan turn game following simple rules with simple interface.
 
-1. writing system and pronunciation (standard tibetan, common to classical and modern languages)
-2. presentation of the grammar of classical Tibetan - grammatical syllables and their function - illustrated and clarified by examples.
-Can have possible further ramifications: 	
-	- a platform for translators and translations from classical Tibetan
-	- a dictionary of quotations of classical Tibetan
+## Purpose
 
-### Purpose
-* Provide a tool for self learning of Tibetan pronunciation and classical tibetan grammar. 
-* Provide additional materials for students of SSF Classical Tibetan courses.
-* Work as a reference point for people learning to translate and working with translation
 
-### Who it’s for? 
+## Who it’s for? 
 Anyone interested
 
-### Why they would want to use it?
-Extremely useful tool for those interested in Classical Tibetan, Tibetan Traditions, Tibetan Culture and related subjects
+## Why they would want to use it?
 
-### Expected Features: 
+
+## Expected Features: 
 - unicode support
 - Multilanguage
 
-### Checkpoints: 
-1. Syllabe preview with wylie and pronuciation (mp3 audio)
-2. Searchabe tib syllabes libary
-3. Tibetan phrases with syllabes hints (form syllabes libary)
+## Checkpoints: 
+- [ ] Interface done 
+- [ ] Game logic implemented
+- [ ] Players interaction, turns (backend)
+- [ ] AI [Monte_Carlo_tree_search](https://en.wikipedia.org/wiki/Monte_Carlo_tree_search)
+- [ ] Mobile versions
 
-### Technologies: 
-
+## Technologies: 
 [JavaScript](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics), [ES6](https://babeljs.io/learn-es2015/), [React](https://facebook.github.io/react/), [Bootstrap](http://getbootstrap.com/getting-started/), [Browserify](https://codeutopia.net/blog/2016/01/25/getting-started-with-npm-and-browserify-in-a-react-project/)
 
-### Backend:
+## Backend:
 node.js, Google sheets (json export)
 
-### Difficulty: 
+## Difficulty: 
 Medium
 
-### Recommended toolset:
+## Recommended toolset:
    - Editor: [Sublime Text 3](https://www.sublimetext.com/3) with [react support](https://medium.com/@adrianli/setting-up-sublime-text-3-for-reactjs-3bf6baceb73a), [Atom](https://atom.io/) [with react](https://medium.com/productivity-freak/my-atom-editor-setup-for-js-react-9726cd69ad20) or Vim ;)
    - Git client: Shell, [Git Desktop](https://desktop.github.com/)
 
-### Resources:
-* [Exporting audio using Audacity](https://docs.google.com/a/shangshunginstitute.org/document/d/1Earmi3QY5TuGw-K94hTVOaITLj6RH5MA0Kz5wRMhIKA/edit?usp=sharing)
+## Resources:
+### Ming Mang Game
+tib. many eyes
+* [wikipedia](https://en.wikipedia.org/wiki/Ming_Mang_(game))
+* http://homepages.di.fc.ul.pt/~jpn/gv/mingmang.htm
+* http://www.gosymposium.org/papers/peter_shotwell_migmang.docx
+Very similar to Othello / Reversi game
+* https://github.com/kana/othello-js
+* https://github.com/jbub/reversi-js
+* https://www.reddit.com/r/reviewmycode/comments/59wc58/javascript_and_p5js_othello_game/
+* https://www.lemoda.net/games/othello/index.html
+* http://othellogame.net/
+* http://en.doc.boardgamearena.com/Tutorial_reversi
+* https://www.somewhereincanada.com/games/board_/reversi3/ https://www.somewhereincanada.com/games/board_/reversi3/js/reversi.js
 
-### Starting Project
-Assuming that you have node.js installed globally
+### multiplayer game in javascript
+* https://hackernoon.com/how-to-build-a-multiplayer-browser-game-4a793818c29b
+* http://www.dynetisgames.com/2017/03/06/how-to-make-a-multiplayer-online-game-with-phaser-socket-io-and-node-js/
+* http://lance.gg/
+* http://buildnewgames.com/real-time-multiplayer/
+* https://couchfriends.com/news/4-built-a-real-time-multiplayer-game-with-html5-in-less-than-30-minutes
+
+## node
+* https://nodeschool.io/
+
+## Starting Project
+Assuming that you have node.js installed globally More [info](https://github.com/facebookincubator/create-react-app)
 ```sh
 npm install -g create-react-app
 
-create-react-app tib_learn_app
+create-react-app tibetan_game
 cd tib_learn_app/
 git init
 rm package.json README.md
 git add .
 git commit -m "First commit"
-git remote add origin https://github.com/ShangShungFoundation/tib_learn_app.git
+git remote add origin https://github.com/ShangShungFoundation/tibetan_game.git
 git pull origin master --allow-unrelated-histories
 npm start
 
 ```
-More [info](https://github.com/facebookincubator/create-react-app)
+
 ### Credits: 
-* Prof. Fabian Sanders (initial idea, content, supervision)
-* Daniel Simonelli
-* Тatiana Аржакова
-* Kamil Selwa
+
 
 ### Licence: [MIT License](LICENSE)
