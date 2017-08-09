@@ -1,5 +1,5 @@
 ## [Tibetan Game](https://shangshungfoundation.github.io/tibetan_game/)
-[1st Merigar Hackathon project](ShangShungFoundation/1st_merigar_hackathon)
+[1st Merigar Hackathon project](ShangShungFoundation/1st_merigar_hackathon) organized by [Shang Shung Foundation](shangshungfoundation.org)
 
 **[Website](https://shangshungfoundation.github.io/tibetan_game/)** | 
 [Github](https://github.com/ShangShungFoundation/tibetan_game/) | 
@@ -23,7 +23,7 @@ Anyone interested
 Fun, developement of personal logic skills, strategy
 
 ## Expected Features: 
-- unicode support
+- Unicode support
 - Multilanguage
 
 ## Checkpoints: 
