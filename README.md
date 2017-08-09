@@ -9,11 +9,12 @@
 ## Project Coordinator: 
 
 ## Description
-Online tibetan turn game following simple rules with simple interface.
+Online tibetan turn game following simple rules with simple interface. 
+Proposed game is _Ming Mang_ (tib. Many Eyes)
 
 ## Purpose
-Developement of online 2 paricipants game with optional AI.
-Porting it to native mobile apps
+Developement of online 2 paricipant game with optional AI
+and porting it to native mobile apps using React Native
 
 ## Who it’s for? 
 Anyone interested
