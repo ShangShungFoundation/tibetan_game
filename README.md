@@ -82,7 +82,7 @@ Assuming that you have node.js installed globally More [info](https://github.com
 npm install -g create-react-app
 
 create-react-app tibetan_game
-cd tib_learn_app/
+cd tibetan_game/
 git init
 rm package.json README.md
 git add .
