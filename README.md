@@ -1,5 +1,5 @@
 ## [Tibetan Game](https://shangshungfoundation.github.io/tibetan_game/)
-[1st Merigar Hackathon project](ShangShungFoundation/1st_merigar_hackathon) organized by [Shang Shung Foundation](shangshungfoundation.org)
+[1st Merigar Hackathon project](https://github.com/ShangShungFoundation/1st_merigar_hackathon) organized by [Shang Shung Foundation](shangshungfoundation.org)
 
 **[Website](https://shangshungfoundation.github.io/tibetan_game/)** | 
 [Github](https://github.com/ShangShungFoundation/tibetan_game/) | 
