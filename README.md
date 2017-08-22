@@ -10,7 +10,7 @@
 
 ## Description
 Online tibetan turn game following simple rules with simple interface. 
-Proposed game is _Ming Mang_ (tib. Many Eyes)
+Proposed game is _Mig Mang_ (tib. Many Eyes)
 
 ## Purpose
 Developement of online 2 paricipant game with optional AI
